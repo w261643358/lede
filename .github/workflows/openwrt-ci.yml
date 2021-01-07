@@ -131,7 +131,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-vnstat is not set
           # CONFIG_PACKAGE_luci-app-statistics is not set
           # CONFIG_PACKAGE_luci-app-frpc is not set
-          # CONFIG_PACKAGE_luci-app-frps=y
+          CONFIG_PACKAGE_luci-app-frps=y
           # CONFIG_PACKAGE_luci-app-unblockmusic is not set
           # CONFIG_UnblockNeteaseMusic_Go is not set
           # CONFIG_UnblockNeteaseMusic_NodeJS is not set
