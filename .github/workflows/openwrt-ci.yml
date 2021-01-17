@@ -104,6 +104,7 @@ jobs:
           # 常用LuCI插件选择:
           cat >> .config <<EOF
           CONFIG_PACKAGE_luci-app-usb-printer=y
+          CONFIG_PACKAGE_php7-fpm=y
           CONFIG_PACKAGE_nginx=y
           CONFIG_PACKAGE_openssh-sftp-server=y
           CONFIG_PACKAGE_luci-app-ramfree=y
